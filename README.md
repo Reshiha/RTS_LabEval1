@@ -1,4 +1,4 @@
-**PART 1 - STM32 - implement ring buffer to recive from UART**
+**PART 1 - STM32 - implement ring buffer to receive from UART**
 
 **STEPS NEED TO BE FOLLOWED:-**
 
