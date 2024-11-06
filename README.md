@@ -1,4 +1,5 @@
 PART 1 - STM32 - implement ring buffer to recive from UART 
+
 STEPS NEED TO BE FOLLOWED:-
 1. Put the following statements in the interrupt.c file
      extern void Uart_isr (UART_HandleTypeDef *huart);
@@ -30,6 +31,9 @@ void USART2_IRQHandler(void)
   /* USER CODE END USART2_IRQn 1 */
 }
 4. put the Ringbuf_init (); in the main function and you are good to go
+
+
+
 
 PART 2 - UART RING BUFFER through DMA
 
